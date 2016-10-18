@@ -3,9 +3,9 @@ html {
     height: 100%;
 }
 
-.parallax {
+.parallax1 {
     /* The image used */
-    background-image: url('img_parallex.jpg');
+    background-image: url('images/1.jpg');
     /* Full height */
     height: 70%;
     /* Create the parallax scrolling effect */
@@ -13,4 +13,35 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('images/2.jpg');
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-image: url('images/2.jpg');
+    margin: 0px auto;
+    padding: 70px 30px;
+    color: floralwhite;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    color: floralwhite;
+}
+
+.row-footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #AfAfAf;
 }
